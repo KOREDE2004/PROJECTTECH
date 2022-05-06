@@ -4,7 +4,7 @@
         <title>
             FRONT
         </title>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+            <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
             <meta charset="utf-8">
             <link rel="stylesheet" type="text/css" href="front.css"> 
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,6 +14,7 @@
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
             <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
             <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+            <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
             <!-- Google Fonts -->
             <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"> -->
             <!-- Bootstrap core CSS -->
@@ -31,94 +32,27 @@
     </head>
     <body>
         <div class="one">
-            <label class="logo">TECH<sup>GUYS</sup></label>        <label class="logo">TECH<sup>GUYS</sup></label>
-            <div class="button">
-                <button onclick="document.getElementById('id02').style.display='block'" type="submit" id="one" style="border-radius: 40px;font-weight: bolder;">SignUp</button>
-                <button id="two"  onclick="document.getElementById('id01').style.display='block'"  style="border-radius: 40px;text-align: center;font-weight: bolder;">Login</button>
-                <div id="id01" class="modal">
-                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                    <form class="modal-content animate" action="/action_page.php" method="post">
-                      <div class="imgcontainer">
-                        <p id="kore1" style="margin-bottom:20px;font-size:25px;font-weight:bolder;color:rgb(0, 0, 0);font-family: Arial, Helvetica, sans-serif;">LOGIN</p>
-                        
-                      </div>
-                      <div class="container">
-                        <label for="email" style="color:rgb(78, 76, 76);font-family: sans-serif;font-weight: bold"><b>Email</b></label>
-                        <input style = "background-color: white;" type="email" placeholder="Enter Email" name="email" required>
-                        <label for="psw" style="color:rgb(0, 0, 0);font-family: sans-serif;font-weight:bold;padding-top: 20px;"><b>Password</b></label>
-                        <input type="password" placeholder="Enter Password" pattern=".{6,10}" required title="6 to 10 characters" name="psw" required>         
-                        <div class="container" style="background-color:rgba(107, 99, 99, 0);height:auto;margin-top: -30px;">
-                          <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="padding:10px;margin:10px;color:white">Cancel</button> -->
-                          <span style="color:rgb(0, 0, 0);font-family: sans-serif;font-size: 10px;" class="psw">Forgot <a href="#">password?</a></span>
-                        </div>
-                        <button style="color:white;background-image: url('mat/agric12.jpeg');background-size: cover;background-repeat: no-repeat;border-radius: 40px;font-family: serif;font-size: 8px" type="submit" id="hey">LOGIN</button>
-                        <div class="container" style="background-color:rgba(2, 2, 2, 0);height:10px;margin-top: -15px;">
-                          <p style="font-family: sans-serif;text-align: center;font-size: 10px ;">Or Sign In Using</p>
-                        </div>
-                        <div class="container" style="background-color:rgba(184, 21, 21, 0);height:auto;margin-top: 5px;display: flex;justify-content: center;">
-                          <i class="fa fa-facebook" style="padding-left: 0px;color:blue;font-size: 20px;"></i> 
-                           <i class="fa fa-google" style="padding-left: 20px;color:rgb(177, 29, 29);font-size: 20px;"></i>
-                            <i class="fa fa-twitter" style="padding-left: 20px;color:dodgerblue;font-size: 20px;"></i>
-                          <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="padding:10px;margin:10px;color:white">Cancel</button> -->
-                        </div>
-                        <div class="contain" style="background-color:rgba(2, 2, 2, 0);height:10px;margin-top: 45px;">
-                          <p style="font-family: sans-serif;text-align: center;font-size: 10px ;">Or Sign Up Using</p>
-                        </div>
-                        <div class="none" style="background-color:rgba(2, 2, 2, 0);height:10px;margin-top: 5px;justify-content: center;">
-                          <button onclick="document.getElementById('id02').style.display='block'" type="submit" id="none" style="justify-content: center;background-color: rgb(255, 255, 255);position: center;width:100%">Register</button>
-                        </div>
-
-                      </div>
-                      
-                    </form>
-                </div>
-                   <script>
-                       // Get the modal
-                       var modal = document.getElementById('id01');
-                       var modal = document.getElementById('id02');
-                       
-                       // When the user clicks anywhere outside of the modal, close it
-                       window.onclick = function(event) {
-                           if (event.target == modal) {
-                               modal.style.display = "none";
-                           }
-                       }
-                   </script>
-            </div>
-            <div id="id02" class="modal1">
-                <form class="modal1-content animate" action="/action_page.php" method="post">
-                    <p id="kore1" style="margin-bottom:20px; font-size:25px; font-weight:bolder; color:rgb(7, 6, 6);text-align: center;padding-top: 20px;">REGISTER</p>
-                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-              
-                  <div class="container">
-                    <label for="username" style="font-family:sans-serif;font-size:15px"><b>Full Name</b></label>
-                    <input id="username" name="Username" type="text" placeholder="Enter your Full Name" required>
-        
-                    <label for="email" style="font-family:sans-serif;font-size:15px"><b>Email</b></label>
-                    <input type="email" value="" Placeholder="Email" required>
-
-                    <label for="psw" style="font-family:sans-serif; font-size:15px"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" pattern=".{6,10}" required title="6 to 10 characters" name="psw" style="background-color: white;" required>
-                      
-                    <label for="psw" style="font-family:sans-serif;font-size:15px" ><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Confirm Password" pattern=".{6,10}" required title="6 to 10 characters" name="psw" style="background-color: none;" required>
-        
-                    <button style="color:rgb(0, 0, 0);background-color:blueviolet;border-radius: 30px;" type="submit" id="hey">Register</button>
-                </form>
-                <div class="container" style="background-color:rgba(2, 2, 2, 0);height:10px;margin-top: -15px;">
-                  <p style="font-family: sans-serif;text-align: center;font-size: 10px ;">Or Sign Up Using</p>
-                </div>
-                <div class="container" style="background-color:rgba(184, 21, 21, 0);height:auto;margin-top: 5px;display: flex;justify-content: center;">
-                  <i class="fa fa-facebook" style="padding-left: 0px;color:blue;font-size: 20px;"></i> 
-                   <i class="fa fa-google" style="padding-left: 20px;color:rgb(168, 35, 35);font-size: 20px;"></i>
-                    <i class="fa fa-twitter" style="padding-left: 20px;color:dodgerblue;font-size: 20px;"></i>
-                  <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="padding:10px;margin:10px;color:white">Cancel</button> -->
-                </div>
-              </div>
-        </div>
-        <div class="two">
-            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;padding-top: 70px;">WELCOME TO TECHHUB TECH GURUS</p>
-            <!-- <p style="color:rgb(231, 245, 231);padding-top: 90px;font-size: 22px;font-weight: bold;font-family: serif;background-color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ea quia dolores blanditiis officia quaerat quasi dolorum fuga iste dignissimos voluptatem excepturi, minus eos atque reprehenderit? Totam voluptatibus quod et!</p> -->
+            <!-- <input type="checkbox" id="check">
+            <label for="check" class="ckeckbtn">
+              <i class="fas fa-bars"></i>
+            </label> -->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">TECH<sup>GUYS</sup></label>
+            <ul>
+              <li><a class = "active" href="" >Home</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Home</a></li>
+              <li><a href="reg.html">SignUp</a></li>
+              <li><a href="">LogIn</a></li>
+                <!-- <li><button onclick="document.getElementById('id02').style.display='block'" type="submit" id="one" style="border-radius: 3px;font-weight: bolder;">SignUp</button></li>
+                <li><button id="two"  onclick="document.getElementById('id01').style.display='block'"  style="border-radius: 3px;text-align: center;font-weight: bolder;">Login</button></li> -->
+            </ul>
+            
             <div class="flex-parent jc-center">
                 <button onclick="window.print()" type="submit" class="transparent" type="submit" class="transparent" style="color:rgb(0, 0, 0);
                 background-color: rgb(255, 255, 255);width:auto;text-align: center;width:150px;height:50px;margin-top: 190px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
