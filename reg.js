@@ -79,3 +79,28 @@ function validate(val) {
 
     return flag;
 }
+
+function myFunction() {
+    var x = document.getElementById("job");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+  function myFunction1() {
+    var x = document.getElementById("joby");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+function myFunction2() {
+    var x = document.getElementById("jobx");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }

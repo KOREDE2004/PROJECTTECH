@@ -41,6 +41,10 @@ body{
         .forget {
             text-align: right;
         }
+
+        .forget p {
+            padding-top: 20px;
+        }
         .form-control-label input{
             width: 100%;
         }
@@ -62,4 +66,54 @@ body{
         border: none !important;
         box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
        }
+}
+
+#three i {
+       position:relative;
+       margin-top: -35px;
+       margin-left: 300px;
+       cursor: pointer;
+  }
+
+@media screen and (max-width: 1400px) {
+       
+#three i {
+       position: relative;
+       margin-top: -35px;
+       margin-left: 230px;
+       cursor: pointer;
+       pointer-events: all;
+  
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+
+    #three i {
+        position: relative;
+        margin-top: -35px;
+        margin-left: 210px;
+        cursor: pointer;
+        pointer-events: all;
+    }
+    
+        
+
+}
+
+@media screen and (max-width: 700px) {
+       
+#three i {
+       position: relative;
+       margin-top: -35px;
+       margin-left: 170px;
+       cursor: pointer;
+       pointer-events: all;
+  
+  }
+
+}
+@media screen and (max-width: 575px) {
+
 }
