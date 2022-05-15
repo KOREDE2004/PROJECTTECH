@@ -71,10 +71,9 @@ if (! empty($_POST["login-btn"])) {
                                                     Me</label>
                                             </div>
                                         </div>
-                                        <input class="btn btn-primary btn-user btn-block" type="submit" name="login-btn"
-											id="login-btn" value="Login">
-                                        
-                                       
+                                        <input class="btn btn-primary btn-user btn-block" type="submit" name="login-btn" id="login-btn" value="Login">
+                                    
+           
                                     </form>
                                     <hr>
                                     <div class="text-center">
@@ -88,15 +87,8 @@ if (! empty($_POST["login-btn"])) {
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
-
-				</form>
-			</div>
-		</div>
-	</div>
 
 	<script>
 function loginValidation() {
